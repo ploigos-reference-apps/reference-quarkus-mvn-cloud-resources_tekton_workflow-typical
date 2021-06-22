@@ -1,5 +1,6 @@
-# reference-quarkus-mvn-cloud-resources (Tekton) (Workflow: Standard)
-The cloud resources for the [reference-quarkus-mvn_tekton_workflow-standard](http://gitea.tssc.rht-set.com/ploigos-reference-applications/reference-quarkus-mvn_tekton_workflow-standard) application.
+# reference-quarkus-mvn-cloud-resources (Tekton) (Workflow: Typical)
+The cloud resources for the [reference-quarkus-mvn](https://github.com/ploigos-reference-apps/reference-quarkus-mvn)
+application when using Tekton and the Typical workflow.
 
 ## Install
 

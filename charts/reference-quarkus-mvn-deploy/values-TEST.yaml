@@ -1,0 +1,5 @@
+replicaCount: 1
+image:
+  tag:
+route:
+  hostname: fruit-std-workflow-tekton.test.apps.tssc.rht-set.com

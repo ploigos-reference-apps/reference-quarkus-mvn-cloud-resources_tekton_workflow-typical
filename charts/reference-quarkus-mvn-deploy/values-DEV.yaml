@@ -1,3 +1,3 @@
 replicaCount: 1
 image:
-  tag:
+  tag: quay-quay-enterprise.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-tekton-typ-fruit:1.0.2-feature_tekton-cleanup # written by ploigos-step-runner

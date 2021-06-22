@@ -1,7 +1,7 @@
 apiVersion: v2
 name: reference-quarkus-mvn-workflow
 description: |
-  A Helm chart for Kubernetes to deploy the Ploigos Workflow (Standard) for the
+  A Helm chart for Kubernetes to deploy the Ploigos Workflow (Typical) for the
   "reference-quarkus-mvn" application.
 type: application
 
@@ -11,6 +11,6 @@ type: application
 version: 0.1.0
 
 dependencies:
-- name: ploigos-workflow-everything-tekton-pipeline
+- name: ploigos-workflow-typical-tekton-pipeline
   version: "0.16.0"
   repository: "https://ploigos.github.io/ploigos-charts"

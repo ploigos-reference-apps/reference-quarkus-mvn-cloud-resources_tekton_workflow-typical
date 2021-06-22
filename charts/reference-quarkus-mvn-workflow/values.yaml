@@ -1,15 +1,15 @@
 global:
-  nameOverride: reference-quarkus-mvn-workflow-eve
+  nameOverride: reference-quarkus-mvn-workflow-typ
 
-  applicationName: ref-quarkus-mvn-tekton-eve
+  applicationName: ref-quarkus-mvn-tekton-typ
   serviceName: fruit
 
-  eventListenerIngressHost: el-ref-quarkus-mvn-tekton-eve-fruit.apps.tssc.rht-set.com
-  eventListenerRouteHostOverride: el-ref-quarkus-mvn-tekton-eve-fruit.apps.tssc.rht-set.com
+  eventListenerIngressHost: el-ref-quarkus-mvn-tekton-typ-fruit.apps.tssc.rht-set.com
+  eventListenerRouteHostOverride: el-ref-quarkus-mvn-tekton-typ-fruit.apps.tssc.rht-set.com
 
   cleanupPipelineRunsToKeep: 4
 
-  stepRunnerConfigDir: cicd/tekton/everything/ploigos-step-runner-config/
+  stepRunnerConfigDir: cicd/tekton/typical/ploigos-step-runner-config/
 
   tektonGitSSHKeys:
     gitea:
@@ -30,8 +30,6 @@ global:
   workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:v0.17.0'
   workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:v0.17.0'
   workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:v0.17.0'
-  workflowWorkerImageContainerImageStaticComplianceScan: 'ploigos/ploigos-tool-openscap:v0.17.0'
   workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:v0.17.0'
   workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:v0.17.0'
-  workflowWorkerImageValidateEnvironmentConfiguration: 'ploigos/ploigos-tool-config-lint:v0.17.0'
   workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:v0.17.0'

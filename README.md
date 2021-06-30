@@ -17,7 +17,7 @@ WORKFLOW_NAMESPACE=
 helm dependency update charts/reference-quarkus-mvn-workflow
 
 helm secrets upgrade --install \
-    reference-quarkus-mvn-workflow ./charts/reference-quarkus-mvn-workflow \
+    reference-quarkus-mvn-workflow-typ ./charts/reference-quarkus-mvn-workflow \
     -f charts/reference-quarkus-mvn-workflow/values.yaml \
     -f charts/reference-quarkus-mvn-workflow/secrets.yaml \
     --namespace ${WORKFLOW_NAMESPACE} \

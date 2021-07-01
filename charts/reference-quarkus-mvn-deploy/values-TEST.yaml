@@ -1,5 +1,5 @@
 replicaCount: 1
 image:
-  tag: quay-quay-enterprise.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-tekton-typ-fruit:1.0.2-main # written by ploigos-step-runner
+  tag: registry-internal-nexus.apps.tssc.rht-set.com/ploigos-ref/ref-quarkus-mvn-tekton-typ-fruit:1.0.2-main # written by ploigos-step-runner
 route:
   hostname: fruit-std-workflow-tekton.test.apps.tssc.rht-set.com

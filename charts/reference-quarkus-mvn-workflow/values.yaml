@@ -9,7 +9,7 @@ global:
 
   cleanupPipelineRunsToKeep: 4
 
-  stepRunnerConfigDir: cicd/tekton/typical/ploigos-step-runner-config/
+  stepRunnerConfigDir: cicd/ploigos-integration-environment/tekton/typical/ploigos-step-runner-config/
 
   tektonGitSSHKeys:
     gitea:

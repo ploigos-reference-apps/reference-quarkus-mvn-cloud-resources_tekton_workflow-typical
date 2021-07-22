@@ -24,15 +24,15 @@ global:
   workflowWorkerHomeDirPVCRequestSize: 20Gi
   workflowWorkerAppDirPVCRequestSize: 1Gi
 
-  workflowWorkerImageDefault: 'ploigos/ploigos-base:v0.19.0'
-  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:v0.19.0'
-  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:v0.19.0'
-  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:v0.19.0'
-  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:v0.19.0'
-  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:v0.19.0'
-  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:v0.19.0'
-  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:v0.19.0'
-  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:v0.19.0'
+  workflowWorkerImageDefault: 'ploigos/ploigos-base:v0.19.1'
+  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:v0.19.1'
+  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:v0.19.1'
+  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:v0.19.1'
+  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:v0.19.1'
+  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:v0.19.1'
+  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:v0.19.1'
+  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:v0.19.1'
+  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:v0.19.1'
 
   stepRunnerUpdateLibrary: false
-  stepRunnerLibSourceUrl: 'git+https://github.com/ploigos/ploigos-step-runner.git@v0.19.0'
+  stepRunnerLibSourceUrl: 'git+https://github.com/ploigos/ploigos-step-runner.git@v0.19.1'

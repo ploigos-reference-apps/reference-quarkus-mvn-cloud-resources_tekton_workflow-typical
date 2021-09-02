@@ -24,12 +24,16 @@ global:
   workflowWorkerHomeDirPVCRequestSize: 20Gi
   workflowWorkerAppDirPVCRequestSize: 1Gi
 
-  workflowWorkerImageDefault: 'ploigos/ploigos-base:v0.20.0'
-  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:v0.20.0'
-  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:v0.20.0'
-  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:v0.20.0'
-  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:v0.20.0'
-  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:v0.20.0'
-  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:v0.20.0'
-  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:v0.20.0'
-  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:v0.20.0'
+  workflowWorkerImageDefault: 'ploigos/ploigos-base:nightly'
+  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:nightly'
+  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:nightly'
+  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:nightly'
+  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:nightly'
+  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:nightly'
+  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:nightly'
+  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:nightly'
+  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:nightly'
+
+  workflowWorkersImagePullPolicy: 'Always'
+  stepRunnerUpdateLibrary: true
+  stepRunnerLibSourceUrl: "git+https://github.com/ploigos/ploigos-step-runner.git@main"

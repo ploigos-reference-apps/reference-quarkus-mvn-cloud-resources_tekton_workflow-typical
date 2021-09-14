@@ -24,12 +24,12 @@ global:
   workflowWorkerHomeDirPVCRequestSize: 20Gi
   workflowWorkerAppDirPVCRequestSize: 1Gi
 
-  workflowWorkerImageDefault: 'ploigos/ploigos-base:pr-95'
-  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:pr-95'
-  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:pr-95'
-  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:pr-95'
-  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:pr-95'
-  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:pr-95'
-  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:pr-95'
-  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:pr-95'
-  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:pr-95'
+  workflowWorkerImageDefault: 'ploigos/ploigos-base:v0.22.0'
+  workflowWorkerImageUnitTest: 'ploigos/ploigos-tool-maven:v0.22.0'
+  workflowWorkerImagePackage: 'ploigos/ploigos-tool-maven:v0.22.0'
+  workflowWorkerImageStaticCodeAnalysis: 'ploigos/ploigos-tool-sonar:v0.22.0'
+  workflowWorkerImagePushArtifacts: 'ploigos/ploigos-tool-maven:v0.22.0'
+  workflowWorkerImageContainerOperations: 'ploigos/ploigos-tool-containers:v0.22.0'
+  workflowWorkerImageContainerImageStaticVulnerabilityScan: 'ploigos/ploigos-tool-openscap:v0.22.0'
+  workflowWorkerImageDeploy: 'ploigos/ploigos-tool-argocd:v0.22.0'
+  workflowWorkerImageUAT: 'ploigos/ploigos-tool-maven:v0.22.0'
